@@ -21,5 +21,5 @@
     <!--
         配置Controller
     -->
-    <bean id="/user" class="com.moran.controller.UserController"></bean>
+    <bean id="/user" class="com.moran.controller.a_view.UserController"></bean>
 </beans>
