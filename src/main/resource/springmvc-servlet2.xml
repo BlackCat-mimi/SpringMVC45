@@ -23,8 +23,6 @@
    <!--mvc:annotation-driven 其中都包含了映射器和适配器，还多了其它功能，要通过配置才有-->
     <mvc:annotation-driven/>
 
-
-
     <!--
         视图解析器
     -->

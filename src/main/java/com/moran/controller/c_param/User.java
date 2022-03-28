@@ -1,14 +1,14 @@
-package com.moran.controller;
+package com.moran.controller.c_param;
 
 public class User {
     private String uname;
-    private String upwd;
+    private int age;
 
     @Override
     public String toString() {
         return "User{" +
                 "uname='" + uname + '\'' +
-                ", upwd='" + upwd + '\'' +
+                ", age=" + age +
                 '}';
     }
 
@@ -20,11 +20,11 @@ public class User {
         this.uname = uname;
     }
 
-    public String getUpwd() {
-        return upwd;
+    public int getAge() {
+        return age;
     }
 
-    public void setUpwd(String upwd) {
-        this.upwd = upwd;
+    public void setAge(int age) {
+        this.age = age;
     }
 }
